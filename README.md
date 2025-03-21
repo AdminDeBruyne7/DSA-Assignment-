@@ -1,4 +1,5 @@
 #**Question 1**
+
 the big O notation helps us understand how an algorithms performance changes as the input size growa. the key rules are:
  **drop constants**: big O notation focuses on how fast the runtime grows, so we ignore the constants e.g. If an algorithm runs in O(2n), we simplify it to O(n) because doubling doesn’t change the overall trend.
  **Drop-non Dominant Terms**: in this rule, when multiple terms exist, we only keep the one that grows faster e.g. If an algorithm runs in O(n² + n), we drop n and just say O(n²) because n² dominates as n grows.
@@ -8,6 +9,8 @@ the big O notation helps us understand how an algorithms performance changes as 
 
 
  #**Question 2**
+
+ 
  **Memory Allocation**: An array has contiguous block of memory, all allocated at once whereas linked lists have a dynamic memory alllocation, each node stored seperately
  **Perfromance**: an array has a faster access for index based lookup, whereas a linked list has a slower access to find an element
  **Insertion and Deletion**: an array is costly, in worst case, shifting is needed whereas linked list is much more efficient at head elsewhere no shifting 
